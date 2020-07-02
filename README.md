@@ -1,2 +1,2 @@
 # CppExercise
-Pick Up C++ Exercise
+C++ Exercise when preparing the coding interview
