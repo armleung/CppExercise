@@ -1,3 +1,6 @@
+#ifndef BINARY_SEARCH_TREE
+#define BINARY_SEARCH_TREE
+
 #include <iostream>
 #include <queue> 
 
@@ -29,8 +32,8 @@ class binary_Search_tree{
         binary_Search_tree() {
             root = nullptr;
         }
-        void test(){
-            std::cout << "Hello BST" << std::endl;
+        Node* GetRoot(){
+            return root;
         }
         void insert(int value){
             Node* newNode = new Node(value);
@@ -172,3 +175,4 @@ class binary_Search_tree{
         } 
 };
 
+#endif
